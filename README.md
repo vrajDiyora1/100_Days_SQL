@@ -1,1 +1,8 @@
-# 100_Days_SQL
+# 100\_Days\_SQL
+
+Day 1 
+
+select \* from employee
+
+
+
