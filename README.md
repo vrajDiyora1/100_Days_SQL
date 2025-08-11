@@ -50,3 +50,33 @@ ORDER BY TotalSpent DESC;
 
 
 <img width="165" height="91" alt="image" src="https://github.com/user-attachments/assets/dbd317ab-cc4b-41d8-a951-bdb5b59deb12" />
+
+## Day66. [LeetCode-#184] Department Highest Salary
+
+### Purpose
+Find employees who have the highest salary in each of the departments.
+
+### Column
+Department, Employee, Salary
+
+### Skill
+SQL (Window functions, Ranking)
+
+### Code
+```sql
+SELECT
+    d.Name AS Department,
+    Sel.Name AS Employee,
+    Sel.Salary AS Salary
+FROM
+(
+    SELECT
+        Name,
+        Salary,
+        DepartmentId,
+        DENSE_RANK() OVER (PARTITION BY DepartmentId ORDER BY Salary DESC) AS dr
+    FROM Employee
+) AS Sel
+INNER JOIN Department d
+    ON d.Id = Sel.DepartmentId
+WHERE Sel.dr = 1;
