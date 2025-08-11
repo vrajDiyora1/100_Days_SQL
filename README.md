@@ -1,6 +1,6 @@
 # 100\_Days\_SQL
 
-## Day 1 [Binary tree Node] ?
+## Day 1 [Binary_tree_Node] ?
 
 #### Purpose
 > 
@@ -9,7 +9,7 @@
 > 
 
 #### Code
-select
+> select
 N,
     case 
         when P is NULL then 'Root'
