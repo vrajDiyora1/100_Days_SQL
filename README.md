@@ -49,3 +49,24 @@ Order By N ASC;
 
 #### Success
 <img width="358" height="171" alt="image" src="https://github.com/user-attachments/assets/0f49ef13-561d-48b8-940a-6337193f720c" />
+## Day? [Implementation] ?
+
+#### Purpose
+> 
+
+#### Step by Step
+> 
+
+#### Code
+
+SELECT
+  N,
+  CASE
+    WHEN P IS NULL THEN 'Inner'
+    ELSE 'Other'
+  END AS somecolumn
+FROM BST;
+
+
+#### Success
+![](PNG/)
