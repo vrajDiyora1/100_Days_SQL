@@ -37,6 +37,7 @@ Leaf: If node is leaf node.
 Inner: If node is neither root nor leaf node.
 
 #### Code
+```SQL
 select
 N,
     case 
