@@ -3,12 +3,10 @@
 ## Day 1 [Binary tree Node] ?
 
 #### Purpose
-You are given a table, BST, containing two columns: N and P, where N represents the value of a node in Binary Tree, and P is the parent of N.
-Write a query to find the node type of Binary Tree ordered by the value of the node. Output one of the following for each node:
+> 
 
-Root: If node is root node.
-Leaf: If node is leaf node.
-Inner: If node is neither root nor leaf node.
+#### Step by Step
+> 
 
 #### Code
 select
@@ -23,4 +21,5 @@ Order By N ASC;
 
 
 #### Success
+
 <img width="163" height="408" alt="image" src="https://github.com/user-attachments/assets/149bfd0a-936e-490f-9fea-7b3ce90e44f6" />
