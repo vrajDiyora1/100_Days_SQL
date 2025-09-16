@@ -47,7 +47,7 @@ FROM EMPLOYEES;
 #### Success
 <img width="857" height="477" alt="image" src="https://github.com/user-attachments/assets/db1e3222-b385-4755-8b2b-28bcde7f28d9" />
 
-## Day2 [Advance select, Occuption] 
+## Day3 [Advance select, Occuption] 
 
 #### Purpose
 Pivot the Occupation column in OCCUPATIONS so that each Name is sorted alphabetically and displayed underneath its corresponding Occupation. The output should consist of four columns (Doctor, Professor, Singer, and Actor) in that specific order, with their respective names listed alphabetically under each column.
