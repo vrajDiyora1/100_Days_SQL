@@ -16,5 +16,6 @@ limit 1;
 ```
 
 #### Success
-![](PNG/)
+<img width="404" height="221" alt="image" src="https://github.com/user-attachments/assets/ba04f542-17a3-4a5b-9164-ca396c43b1d2" />
+
 
