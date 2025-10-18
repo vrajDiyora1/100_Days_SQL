@@ -1,10 +1,8 @@
-## Day? [Implementation] ?
-
+## Q1 [African cities] 
 #### Purpose
-> 
+> Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'.
 
-#### Step by Step
-> 
+Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
 
 #### Code
 ```sql
@@ -13,5 +11,7 @@ FROM CITY
 LEFT JOIN COUNTRY
 ON CITY.COUNTRYCODE = COUNTRY.CODE
 WHERE COUNTRY.CONTINENT = 'AFRICA'
+
 ```
 #### Success
+<>
