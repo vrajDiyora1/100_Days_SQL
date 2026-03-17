@@ -1,7 +1,7 @@
 
 <img width="1150" height="1239" alt="image" src="https://github.com/user-attachments/assets/e10c7a60-728b-4d53-9ff4-f747e746a82e" />
 
-
+```SQL
 WITH max_scores AS (
     SELECT 
         event_id,
@@ -45,3 +45,4 @@ FROM ranked
 WHERE rnk <= 3
 GROUP BY event_id
 ORDER BY event_id;
+```
