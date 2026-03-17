@@ -5,7 +5,7 @@ use company;
 Select Name
 from products;
 
--- 2. Select the names and the prices of all the products in the store.
+-- 2. Select the names and the prices of all the products in the store..
 select Name, Price
 from products; 
 
