@@ -61,7 +61,7 @@ Select manufacturer, Avg(Price)
 from products 
 group by manufacturer;
 
--- count products per manufacturer name
+-- count products per manufacturer name.
 select m.Name, COUNT(*)
 from products p
 left join manufacturers m
