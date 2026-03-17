@@ -9,7 +9,7 @@ from products;
 select Name, Price
 from products; 
 
--- 3. Select the name of the products with a price less than or equal to $200..
+-- 3. Select the name of the products with a price less than or equal to $200.
 
 select Name 
 from products
