@@ -1,4 +1,4 @@
-## Day7 Employees Earning More Than Their Managers ?
+## Day7 Employees Earning More Than Their Managers 
 
 #### Purpose
 > Write a solution to find the employees who earn more than their managers.
