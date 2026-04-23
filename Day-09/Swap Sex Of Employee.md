@@ -1,4 +1,4 @@
-## Q1 Exchannge seats 
+## Q1 Swap Sex of Employee
 #### Purpose
 ```
 Table: Salary
